@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
+import ProductCard from './ProductCard';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Header />
 
       <header className="App-header">
-        <h1>Hello, React!</h1>
+        <ProductCard />
       </header>
 
       <Footer />
